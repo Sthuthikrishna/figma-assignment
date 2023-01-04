@@ -1,0 +1,129 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    font-family: inter, sans-serif;
+    align-items: center;
+    font-style: normal;
+    
+}
+.wrapper {
+    width: 1440px;
+    margin: 0 auto;
+}
+
+.main-content {
+    background-color: #FFCD9E;
+    height: 592px;
+    width: 1440px;
+    position: relative;
+}
+.sub-content {
+    height: 298px;
+    width: 1440px;
+    position: absolute;
+    padding-top: 50px;
+    padding-left: 136px;
+    display: flex;
+    background-color: #282828;
+    color: #ffffff;
+
+}
+
+h2 {
+    width: 698px;
+    height: 108px;
+    padding-top: 83px;
+    padding-left: 136px;
+    font-size: 36px;
+    line-height: 54px;
+    color:#282828;
+}
+.para {
+    width: 631px;
+    height: 81px;
+    padding-top: 80px;
+    padding-left: 136px;
+    font-size: 20px;
+    line-height: 32px;
+}
+h4 {
+    width: 363px;
+    height: 81px;
+    padding-left: 136px;
+    font-size: 20px;
+    line-height: 32px;
+    padding-top: 100px;
+}
+.mail {
+    width: 344px;
+    height: 64px;
+    margin-left: 136px;
+    margin-top: 50px;
+    font-size: 20px;
+    padding: 12px;
+    border: 4px solid #000000;
+    box-sizing: border-box;
+    position: absolute;
+    border-radius: 8px;
+    align-items: center;
+    display: flex;
+    font-size: 20px;
+    line-height: 160%;
+    color: #888888;
+}
+
+.btn {
+    width: 216px;
+    height: 64px;
+    position: absolute;
+    margin-left: 496px;
+    margin-top: 50px;
+    background: #282828;
+    border-radius: 8px;
+    font-size: 20px;
+    align-items: center;
+    color: #ffffff;
+    line-height: 24px;
+    text-align: center;
+}
+
+h6 {
+    width: 478px;
+    padding-left: 160px;
+    height: 61px;
+    font-size: 16px;
+    line-height: 160%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding-top: 150px;
+    color: #ffffff;
+}
+
+.man {
+    width: 575px;
+    height: 575px;
+    top: 20px;
+    left: 818px;
+    position: absolute;
+}
+.wrapper .sub-content .right {
+    position: absolute;
+    right: 0;
+}
+.left {
+    width: 216px;
+    height: 36px;
+    font-size: 20px;
+    line-height: 160%;
+}
+.right {
+    width: 425px;
+    font-size: 20px;
+    line-height: 160%;
+    text-align: right;
+    padding-right: 193px;
+}
